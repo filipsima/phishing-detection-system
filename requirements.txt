@@ -1,0 +1,47 @@
+# Web framework & API
+fastapi
+uvicorn[standard]
+grpcio
+grpcio-tools
+
+# Database
+asyncpg  # Chosen for async support with FastAPI
+sqlalchemy
+
+# Messaging & Caching
+confluent-kafka  # Chosen over kafka-python for better support
+redis
+
+# S3/MinIO
+boto3  # Chosen for AWS and S3-compatible storage
+
+# Machine Learning & Data
+scikit-learn
+xgboost
+torch  # Covers deep learning needs
+transformers  # For text-based models
+mlflow  # For model versioning
+pandas
+numpy
+
+# Email & URL Processing
+msal  # For Microsoft Graph API
+google-api-python-client  # For Gmail API
+selenium
+elasticsearch
+requests  # General HTTP client
+
+# Threat Intelligence & Security
+yara-python
+celery  # For workflow automation
+
+# Monitoring & Logging
+prometheus_client
+structlog
+
+# LLM & Vector DB
+langchain
+faiss-cpu  # Chosen over weaviate-client for local vector search
+
+# General utilities
+python-dotenv 
