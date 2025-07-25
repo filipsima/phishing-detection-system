@@ -1,0 +1,4 @@
+# Docker Compose file (placeholder)
+version: '3.8'
+services:
+  # Define your services here

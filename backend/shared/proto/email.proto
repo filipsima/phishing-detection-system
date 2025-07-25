@@ -1,0 +1,6 @@
+// Proto definition for email
+syntax = "proto3";
+
+package email;
+
+// Add your message and service definitions here
